@@ -1,0 +1,33 @@
+Git Commands :
+
+//Initialize the local repository
+
+git init 
+
+//add the files in the repo
+
+git add .
+
+//commit the repo
+
+git commit -m "somemessage"
+
+// Create the branch 
+
+git branch branchname
+
+//Navigate to the branch
+
+git checkout branchname
+
+// configure the remote repo
+
+git remote add origin https://github.com/jenifergit142531/DotNetTraining_Volk.git
+
+// checking the status 
+
+git status
+
+//Push the code to the remote branch
+
+git push origin branchname
