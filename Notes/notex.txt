@@ -1,0 +1,128 @@
+
+Agenda :
+
+- Introduction to .Net (Framework and Core)
+- Components
+- Advantages - Docker support,cloud features,api gateways
+- Applications
+- Namespace
+- Access modifiers
+- Read and write statements
+- First Application : Hello world
+- Second Application : Accepting user input and do some processing
+
+.Net : Platform to create Applications
+
+* Desktop  - windows 
+* web - asp.net web 
+* cloud - Azure
+* Gaming - Unity
+* mobile - Xamarin
+* Iot - Iot
+* AI - Apache spark
+
+.Net Core : Additional libraries and packages included
+
+any programming code --->compiling ---> MSIL(Miscrosoft intermediate language)--->CLR ---->Miscrosoft
+
+
+CLR : Common Language runtime environment
+
+* Type safety
+* Exception  handling 
+* Memory management
+* Garbage collection(Automatic)
+
+CLR SUPPORTS JIT(Just in time compliler) convert MSIL ---> MC(0,1...)-->OS
+
+Code :
+
+Managed Code : Supported by .net platform--CLR Services included -- Executed by CLR --OS
+
+Unmanaged code : not supported by .net platform-- NO CLR Service is supported -- directly executed by OS
+
+Disadvantages :
+
+- data loss
+- No memory management
+- no garbage collection
+- no type safety
+---UNSAFE types 
+
+Memory management :
+
+How .net platform handles the memory ?
+
+Heap Memory :  Contains Objects
+
+class1 obj=new class1();
+obj.a;
+
+Stack Memory : LIFO    - Values 
+Queue : FIFO 
+
+a=10, b=20;
+
+comment : non executable statement which will be ignored by your compiler
+
+// - single line comment
+/*.....*/ - multiline comment
+
+Read - convert.toInt(Console.Readline());
+Write - Console.Writeline()
+
+
+CLI : 
+
+//create the new .net console application
+
+dotnet new Console   
+
+//Build the application 
+
+dotnet Build
+
+//execute the application
+
+dotnet run
+
+
+Output Type : Exe , dll
+
+Exe : Executable file,Stand alone application
+dll : Dynamic link library , dependent on other application to execute it 
+
+Namespace : Contains multiple classes as a single 
+
+Variable :
+
+- memory space that holds some Values
+
+Rules :
+
+- Start with a alphabet
+- Cannot start with numbers
+- Cannot use special charaters & whitespaces
+- Can use underscore
+
+
+Syntax :
+
+Declare the variable :
+
+Datatype variablename;  
+
+string Bookname;
+
+Assign / Initialize :
+
+Datatype variablename = value;
+
+string Bookname="Ikigai";
+
+Format :
+
+
+
+
+
