@@ -1,0 +1,185 @@
+
+
+Agenda :
+
+- Main method
+- Data types
+- Opeartors
+- Conditional constructs
+- Looping statements
+- Break and continue
+- Basic type conversion
+- Exceptions
+- Static methods
+- DateTime
+
+Main method :
+
+- Entry point of the execution
+- Only one main method / console application
+- accept CLI Parameters (String[] args)
+
+public static void Main(string[] args)
+
+- Main can have return types like void,int,task
+- Overloading main method is not allowed
+
+Data types :
+
+- Basic :
+
+Integer
+double
+char
+string
+
+Operators :
+
+- Arithmetic : +,-,*,/,%
+- Assignment : +=,-=,*=,/=,%=
+- Logical : &&,||,!
+- Relational : ==,!=,<,>,<=,>=
+
+Operator precedence :
+
+1.Postfix :(),[],->   (Left to right)
+2.Unary : ++,__,(type),sizeof     (right to left)
+3.Multiplicative : *,/,%    (left to right )
+4.Additive : +,- (left to right)
+
+Conditional Construct :
+
+- Checking the condition to execute the piece of code 
+
+* if
+* if...else
+* if...else if...else
+* switch
+
+Looping :
+
+- Execute the same set of statements repeatedly for number of times
+
+* for
+* while
+* do...while 
+
+Break : Used to jump out of the Looping
+Continue : Continues with the next iteration 
+
+Error ? => some uncertinity in the code like syntax error,semantic errors,code practices..
+Exception ? => identifying uncertainity at run times
+Class : System.Exception 
+
+How to handle exception ??
+
+- try : set of stmts that needs to be checked for error 
+- catch : handled the exception
+- finally : close all the resources used by the try block
+- throw : throw out of the method
+
+Datetime : class that defines the date and time properties and methods
+
+Type conversion or Casting :
+
+- Convert from one type to another type
+Two types:
+
+1.Implicit conversion: no data loss,type safe,syntax not required
+2.Explicit conversion : (Cast)syntax,Loss of data,leads to failure 
+
+Boxing vs unboxing :
+
+Boxing : Type ---> object
+Unboxing : Object ---> type
+
+Object Oriented Concepts :
+
+- Object 
+- Classes
+- Abstraction
+- Encapsulation
+- Inheritance 
+- Polymorphism
+
+Object :
+
+Real time entity
+- Instance of the class
+
+Entity (STATE,BEHAVIOUR,IDENTITY) => Object
+
+State : Properties (color,number,quality...)
+Behaviour : Functions (driving,cooking..)
+Identity : name,security number...
+
+Eg : car
+
+
+Class : Blueprint of the object
+
+Eg :Vehicle (coll of objects like car,bus,cycle...)
+
+Abstraction :
+
+Hiding background info and giving only necessary things 
+
+Eg : Pizza ,ATM
+
+Achieve ??
+
+1.Abstract class
+2.Interface (Highly Efficient)
+3.Virtual methods (less recommended)
+
+Encapsulation : Wrapping data and functions in single unit
+
+- data protection and security
+
+How to achieve encapsulation ??
+
+access modifiers => Private,Protected,public,Internal,Protected internal 
+
+Inheritance : Properties of super / base / parent class inherited to sub class / derived class
+
+Need ??
+
+Code reusability 
+
+Polymorphism : 1 method having several forms
+
+Achieve ??
+
+1.Method Overloading (same class)
+2.Method Overriding (different class)
+
+Abstract class :  
+
+- Abstract class that contains abstract method.
+
+Why abstract method ?
+
+- specific implementation of the method
+
+How to implement ?
+
+- "abstract" keyword 
+- "abstract" class can have both abstract and concrete method
+- abstract method - method with no implementation
+- concrete method - which contains implementation 
+- Cannot create instance for the abstract class
+
+Virtual Method :
+- By default,methods are non-virtual.
+- We cannot override a non-virtual method
+- Can provide implementation to the base class using virtual keyword,which in turn overriden by the child class 
+
+Interface :
+  
+  - only declaration and no implementation 
+  - Cannot create instance for the Interface
+  - all methods are public by default
+  - Do not have to override the methods of interface rather you can implement it directly
+  - MUST implement the interface members while inheriting
+  
+  "What to do but not how to do it " 
