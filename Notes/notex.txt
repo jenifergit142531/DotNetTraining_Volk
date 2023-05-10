@@ -1,0 +1,129 @@
+
+
+Agenda :
+
+- Inheritance
+- Polymorphism
+- Constructor
+- Destructor
+- Enums
+- Struct 
+- Record
+- Tuple
+- Arrays
+* Single 
+* Multi-dimensional
+* Jagged Arrays
+
+Things to discuss on next class :
+
+- properties
+- Indexers
+- Nullable
+- Collections
+- Delegate and events
+- Serialization
+
+
+Inheritance :
+
+Inheriting the properties and behaviours of another class
+
+Advantage :
+
+- code reusability
+
+* single 1bc --> 1cl
+* multilevel 1bc ---> 1 cl --> 2cl
+* Hierarchial Inheritance 1bc ---> 1cl,2cl,3cl,.....
+* Hybrid inheritance(combination of any of the above)
+
+
+Deprecated : not allowed in C#(Reason : Duplication of data)
+Multiple : 1bc,2bc ----> 1cl---> 
+
+Polymorphism :
+
+- one class with multiple forms
+
+* Function Overloading (same class)
+* Function Overriding (different class)
+
+Function overloading : method with different implementation in the same class.(different signatures)
+
+* Different data type - parameters
+* Number of arguments 
+* return types varies 
+
+Constructor : 
+
+- Initialize the members of the class
+- gets invoked automatically whenever object is created
+- Constructor name and class name is the same
+- constructor has no return type
+- accept parameters
+- can be overload(Multiple constructor in the class)
+
+Types :
+
+- Empty constructor - no parameters
+- Constructor overloading - more than one constructor
+- Copy constructor - not recommendable (copy the content from another / existing constructor)
+
+Destructor :
+
+- destroy the instance of the class
+- destructor name is same as the clas name 
+- ~ symbol
+- cannot be overloaded
+- 1 destrutor is allowed for a singleclass
+- invoked while exiting the program
+
+Destructor -> finalize() - free up the resources before deleting the object 
+
+Enums : 
+
+- add some constant to the group of values 
+
+Struct :
+
+- These are value types
+- Stored on stack memory
+- Boxing and unboxin is not allowed
+- It usually corresponds to the primitive types
+- It is immutable
+- constructor is allowed
+- destrutor not allowed
+- Cannot be used along abstract / virtual
+
+Record : 
+
+- Reference type 
+
+Record vs Classes ??
+
+- Records uses value-based equality
+- Classes uses memory-based equality 
+
+Tuple : 
+
+- Contains sequence of data with different datatype
+
+When ??
+
+- Store multiple values of Different DT in one storage location
+
+Accessed ??
+
+- Using the properties
+
+Arrays :
+
+- Collection of data of same data type
+
+Single : Array with single row dimensional
+Multidimensional : both rows and columns (fixed length)
+Jagged array : values with variable length
+
+
+

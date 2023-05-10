@@ -1,0 +1,15 @@
+C:\users\jenifery\may_vd\c#class3\demo\bin\Debug\net7.0\demo.exe
+C:\users\jenifery\may_vd\c#class3\demo\bin\Debug\net7.0\demo.deps.json
+C:\users\jenifery\may_vd\c#class3\demo\bin\Debug\net7.0\demo.runtimeconfig.json
+C:\users\jenifery\may_vd\c#class3\demo\bin\Debug\net7.0\demo.dll
+C:\users\jenifery\may_vd\c#class3\demo\bin\Debug\net7.0\demo.pdb
+C:\users\jenifery\may_vd\c#class3\demo\obj\Debug\net7.0\demo.csproj.AssemblyReference.cache
+C:\users\jenifery\may_vd\c#class3\demo\obj\Debug\net7.0\demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\users\jenifery\may_vd\c#class3\demo\obj\Debug\net7.0\demo.AssemblyInfoInputs.cache
+C:\users\jenifery\may_vd\c#class3\demo\obj\Debug\net7.0\demo.AssemblyInfo.cs
+C:\users\jenifery\may_vd\c#class3\demo\obj\Debug\net7.0\demo.csproj.CoreCompileInputs.cache
+C:\users\jenifery\may_vd\c#class3\demo\obj\Debug\net7.0\demo.dll
+C:\users\jenifery\may_vd\c#class3\demo\obj\Debug\net7.0\refint\demo.dll
+C:\users\jenifery\may_vd\c#class3\demo\obj\Debug\net7.0\demo.pdb
+C:\users\jenifery\may_vd\c#class3\demo\obj\Debug\net7.0\demo.genruntimeconfig.cache
+C:\users\jenifery\may_vd\c#class3\demo\obj\Debug\net7.0\ref\demo.dll
