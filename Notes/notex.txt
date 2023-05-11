@@ -1,0 +1,38 @@
+
+
+Agenda :
+
+- Reflection
+- Attributes
+- Custom Attributes
+- Collections
+ * Generic collection 
+ 1.List<T>
+ 2.LinkedList<T>
+ 3.Stack<T> & Queue<T>
+ * Non-Generic collection
+ 1.ArrayList
+ 2.Stack 
+ 3.Queue
+ 4.Hashtable
+
+
+Reflection :
+
+- Getting the metadata informations from the system
+
+- Metadata : Data about Data
+
+Attributes :
+
+- User provide the declarative information about the  code.
+- Built in attribute and custom attribute
+
+Collections :
+
+- Stores series of values or objects in a special class
+
+System.Collections => Non generic collection - non specific to the dt 
+System.Collection.Generic => Generic collection types - specify to a data type
+
+
