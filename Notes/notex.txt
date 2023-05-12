@@ -1,0 +1,97 @@
+
+
+Agenda :
+
+- Delegates
+* Unicast / single cast Delegates
+* Multicast delegate
+- Generic delegate
+- Built in Delegates(Func,action,predicate)
+- Anonymous functions
+- Lambda expression
+- Events
+* Event handling 
+
+Delegate :
+
+- References the method at run time
+- Type safe pointer 
+- Many delegates in the class
+- Delegates works well with lambda expression and anonymous methods
+
+Why we need delegate ?
+- call back to the method at run time
+- invoke the events 
+
+How to work with delegate ?
+
+3 step process
+
+Step 1 : Declare the delegate
+
+<accessmodifier> delegate <returntype> delegatename(parameter)
+
+Step 2 : set the target method to the delegate
+
+delegatename delegateobject=new delegatename(targetmethod)
+
+Step 3 : Invoke the delegate
+
+delegateobject()
+
+Types :
+
+- Single cast delegate : delegate references one method at a time
+
+1d --> m1
+2d-->m2
+
+- Multicast delegate : One delegate references multiple methods at run time
+1d ----> m1,m2,m3....
+
+Operator : +=   (delegate refernces)
+
+Generic delegates : 
+
+Delegate that can work with different method signature
+
+T - data type
+
+Built in delegates :
+
+ System defined delegates
+
+ Types :
+
+ 1.Func Delegate 
+
+ - Must return a value
+ - 0 - 16 input parameters
+ - does not allow ref / out parameter
+ - supports anonymous functions & lambda expression
+
+ Lambda Expression :
+
+ input => {expression};
+
+ Anonymous function : Delegate that does not point to the method ,rather it points to some values or data 
+
+ 2.Action Delegate
+
+ - Does not want to return a value
+ - Return will be void
+ - accept 0 - 16 input parameters
+ - supports anonymous functions & lambda expression
+
+ 3.Predicate Delegate
+
+ - return ONLY BOOLEAN value
+ - accept 1 input
+ - supports anonymous functions & lambda expression
+
+ Events :
+ - user actions such as click,mouse,hover,... made to the application
+ - Whenever user generates event,it needs to handled
+ - events are dependent on delegates
+ 
+ generate event ----> invoke the delegate --->execute the method
