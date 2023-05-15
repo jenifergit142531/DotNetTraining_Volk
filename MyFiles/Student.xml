@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<student id="101" Status="pass">
+  <firstname>Mitra</firstname>
+  <lastname>Ajith</lastname>
+  <grade>first</grade>
+</student>

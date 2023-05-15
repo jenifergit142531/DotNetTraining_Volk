@@ -1,0 +1,43 @@
+
+
+Agenda :
+
+- XML Serialization
+- JSON Serialization
+
+* Install extensions from vs code marketplace
+* vs code nuget package manager (This will allow to add packages)
+* nuget gallery(UI to search and install packages in vscode)
+* Package : Newtonsoft.Json
+
+- Files :
+
+* Collection of data stored on a disk with the specific name located on a given path
+
+
+Stream : Sequence of bytes passing through the communication channel
+Two Streams :
+
+- Input stream : read the data from Files
+- Output stream : write the data to the Files
+
+- Byte reader and writer
+- Text reader and writer
+- Stream reader and writer
+- Binary reader and writer
+- String reader and writer
+- Directory
+
+
+- XML
+
+- Extensible mark up language.
+- Self describing information
+- create tags to define the data
+- Define the tags and its rules
+<student attribute1 attributes>
+<name>...</name>
+<grade>...<grade>
+</student>
+
+
