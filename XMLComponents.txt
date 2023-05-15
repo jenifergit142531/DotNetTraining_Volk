@@ -1,0 +1,26 @@
+Components of an XML file are:
+
+1. Processing Instructions:  
+An XML Documents usually begins with the XML declaration statement called the Processing Instructions .This statement provides information on how the XML file should be processed.
+e.g. <?xml version =”1.0” encoding=”UTF-8”?> 
+The Processing Instruction statement uses the encoding property to specify the encoding scheme used to create the XML file
+
+2. Tags:
+Tags are used to specify a name for a given piece of information. It is a means of identifying data. Data is marked up using tags.
+3. Elements:
+Elements are the basic units used to identify and describe the data in XML. They are the building blocks of an XML document. Elements are represented using tags.
+
+4. Content:
+
+Content refers to the information represented by the elements of an XML document. Consider the following example:  
+ <name>Jayanta</name >
+
+Here Jayanta is content
+
+5. Attributes:
+Attributes provide additional information about the elements for which they are declared. An attribute consists of a name-value pair. Consider the following example:
+<Student_name S_ID = “101”> Jayanta </ Student_name >
+6. Entities:
+An entity is a name that is associated with a block of data, such as chunk of text or a reference to an external file that contains textual or binary information. It is a set of information that can be specifying a single name.
+7. Comments:
+Comments are statements used to explain the XML code. They are used to provide documentation information about the XML file or the application to which the file belongs. The parser ignores comments entries during code execution.
