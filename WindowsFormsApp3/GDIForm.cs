@@ -18,11 +18,11 @@ namespace WindowsFormsApp3
             InitializeComponent();
         }
 
-        private void GDIForm_Paint(object sender, PaintEventArgs e)
-        {
-            // creating graphics object
+       
 
-            Graphics g = e.
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            Graphics g = e.Graphics;
 
 
             //Create three different types of brushes
@@ -74,7 +74,7 @@ namespace WindowsFormsApp3
 
         private void GDIForm_Load(object sender, EventArgs e)
         {
-           
+
         }
     }
 }
