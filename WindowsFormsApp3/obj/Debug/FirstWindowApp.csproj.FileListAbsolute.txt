@@ -1,0 +1,16 @@
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\FirstWindowApp.csproj.AssemblyReference.cache
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\FirstWindowApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\FirstWindowApp.csproj.GenerateResource.cache
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\FirstWindowApp.csproj.CoreCompileInputs.cache
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form2.resources
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form3.resources
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.MDIParent1.resources
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.ParentForm.resources
+C:\Users\JeniferY\Desktop\MSatak\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.GDIForm.resources

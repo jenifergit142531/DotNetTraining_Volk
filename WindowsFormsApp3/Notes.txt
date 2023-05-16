@@ -1,0 +1,32 @@
+﻿
+
+
+Agenda :
+
+- Windows forms application Introduction
+- Common controls - label,button,checkbox...
+- Events and event handling in forms
+- Dialog boxes - print dialog,custom dialog..
+- MDI
+- GDI - Pen,brush,graphics,font
+
+Introduction :
+
+Windows forms is a GUI (Graphical user interface) to develop applications for desktop,tablet,PCS...
+- WinForms
+
+3 window parts
+
+- Editor window or main window
+- Solution explorer window
+- Properties windows
+
+- Tool box : allows you to choose form elements
+
+MDI - Multiple document interface
+- Parent form 
+- multiple child forms
+
+GDI - Graphics device interface
+- Represent graphical object on the form
+GDI + : It provides pen,brush,textures,color gradient,font
