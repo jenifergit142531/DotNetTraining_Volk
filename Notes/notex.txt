@@ -1,0 +1,62 @@
+
+
+Agenda :
+
+- Thread
+- Task
+- Lock
+- Windows forms application Introduction
+- Common controls - label,button,checkbox...
+- Events and event handling in forms
+- Dialog boxes - print dialog,custom dialog..
+- MDI
+- GDI - Pen,brush,graphics,font
+
+
+Threads :
+
+- Light weight process
+- Synchronous : work 1 ----> work2---> work3....
+- Asynchronous : All the threads run at once
+
+work1
+work2
+work3
+
+- Multithreading : when one or more threads run at the same time
+- Threads represent the code of execution
+- one job at a time
+
+Lifecycle :
+
+New - Thread created but not started
+Runnable - start()
+Running - in execution
+Not runnable / blocked / waiting - thread waits for some resources
+Dead - Terminated
+
+
+Types :
+
+1.Foreground thread 
+
+* even if the main application quits , the foreground threads keep Running
+
+2.Background Thread
+
+* if main quits , your thread quits 
+
+Task : Create a parallel processing environment
+
+Task obj=new task();
+
+Task obj=Task.Run()=>
+{
+    //create the task and starts the execution
+}
+
+Task obj=Task.Factory.StartNew();
+
+
+
+
