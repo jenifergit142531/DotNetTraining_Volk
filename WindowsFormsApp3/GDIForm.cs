@@ -48,6 +48,10 @@ namespace WindowsFormsApp3
             g.DrawRectangle(p2, 100, 100, 50, 30);
             g.DrawEllipse(p3, 30, 30, 30, 20);
 
+            //Using font
+            Font fnt = new Font("Calibri",25);
+            g.DrawString("GDI + World", fnt, new SolidBrush(Color.BlueViolet),270, 270);
+
             //get pen types
 
             string str = "pen 1 type :" +
