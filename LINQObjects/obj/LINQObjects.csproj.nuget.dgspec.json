@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\JeniferY\\Desktop\\MSatak\\LINQOperators\\LINQObjects\\LINQObjects.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\JeniferY\\Desktop\\MSatak\\LINQOperators\\LINQObjects\\LINQObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JeniferY\\Desktop\\MSatak\\LINQOperators\\LINQObjects\\LINQObjects.csproj",
+        "projectName": "LINQObjects",
+        "projectPath": "C:\\Users\\JeniferY\\Desktop\\MSatak\\LINQOperators\\LINQObjects\\LINQObjects.csproj",
+        "packagesPath": "C:\\Users\\JeniferY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JeniferY\\Desktop\\MSatak\\LINQOperators\\LINQObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JeniferY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net46"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net46": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net46": {}
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

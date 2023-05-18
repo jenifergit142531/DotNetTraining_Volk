@@ -1,0 +1,8 @@
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQObjects\bin\Debug\LINQObjects.exe.config
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQObjects\bin\Debug\LINQObjects.exe
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQObjects\bin\Debug\LINQObjects.pdb
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQObjects\obj\Debug\LINQObjects.csproj.AssemblyReference.cache
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQObjects\obj\Debug\LINQObjects.csproj.SuggestedBindingRedirects.cache
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQObjects\obj\Debug\LINQObjects.csproj.CoreCompileInputs.cache
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQObjects\obj\Debug\LINQObjects.exe
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQObjects\obj\Debug\LINQObjects.pdb

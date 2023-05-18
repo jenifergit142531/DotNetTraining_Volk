@@ -1,0 +1,43 @@
+
+
+
+Agenda :
+
+- LINQ
+- LINQ Query 
+- LINQ Method
+- Standard query operators
+- Linq - sql : Deprecated from microsoft library
+- LINQ - Entities - ADO.NET ENTITY CLASS
+- LINQ - list
+- LINQ - XML
+- LINQ - Datasource
+
+Introduction :
+
+LINQ - Language integrated query
+
+SQL - Structured query language
+
+- it helps us to retrive the data from different data sources and formats.
+- LINQ follows Structured query syntax that is build to work on .net environment
+- It can retrieve data from collections,dataset,xml docs,web service or other database
+
+LINQ Query structure :
+
+FROM <source>
+WHERE <condidtion>
+SELECT <values>
+
+Query Operators :
+orderby
+join
+count
+max
+min
+First,FirstOrDefault
+Last,LastOrDefault
+ElementAt,ElementAtOrDefault
+Single,SingleOrDefault
+
+- Practise (Skip,SkipWhile,Take,TakeWhile)

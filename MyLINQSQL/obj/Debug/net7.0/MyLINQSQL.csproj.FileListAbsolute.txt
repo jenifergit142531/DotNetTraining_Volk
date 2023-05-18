@@ -1,0 +1,5 @@
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\MyLINQSQL\obj\Debug\net7.0\MyLINQSQL.csproj.AssemblyReference.cache
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\MyLINQSQL\obj\Debug\net7.0\MyLINQSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\MyLINQSQL\obj\Debug\net7.0\MyLINQSQL.AssemblyInfoInputs.cache
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\MyLINQSQL\obj\Debug\net7.0\MyLINQSQL.AssemblyInfo.cs
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\MyLINQSQL\obj\Debug\net7.0\MyLINQSQL.csproj.CoreCompileInputs.cache

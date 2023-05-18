@@ -1,0 +1,11 @@
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQOperators\bin\Debug\LINQOperators.exe.config
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQOperators\bin\Debug\LINQOperators.exe
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQOperators\bin\Debug\LINQOperators.pdb
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQOperators\obj\Debug\LINQOperators.csproj.AssemblyReference.cache
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQOperators\obj\Debug\LINQOperators.csproj.SuggestedBindingRedirects.cache
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQOperators\obj\Debug\LINQOperators.Form1.resources
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQOperators\obj\Debug\LINQOperators.Properties.Resources.resources
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQOperators\obj\Debug\LINQOperators.csproj.GenerateResource.cache
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQOperators\obj\Debug\LINQOperators.csproj.CoreCompileInputs.cache
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQOperators\obj\Debug\LINQOperators.exe
+C:\Users\JeniferY\Desktop\MSatak\LINQOperators\LINQOperators\obj\Debug\LINQOperators.pdb
