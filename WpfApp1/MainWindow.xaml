@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000">
+    <Window.Resources>
+        <Style x:Key="mybuttonstyle" TargetType="Button">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="80"/>
+            <Setter Property="Foreground" Value="red"/>
+            <Setter Property="Background" Value="GreenYellow"/>
+            <Setter Property="Margin" Value="80"/>
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="0,0,10,8">
+
+        <StackPanel Margin="100">
+
+            <TextBlock Name="txt1" FontSize="20" Margin="15">
+                <TextBlock.Text>This is textblock 1</TextBlock.Text>
+
+            </TextBlock>
+            <TextBlock Name="txt2" FontSize="20" Margin="15">
+                <TextBlock.Text>This is textblock 2</TextBlock.Text>
+
+            </TextBlock>
+            <TextBlock Name="txt3" FontSize="20" Margin="15">
+                <TextBlock.Text>This is textblock 3</TextBlock.Text>
+
+            </TextBlock>
+        </StackPanel>
+
+        <Button Content="Button1 " Style="{StaticResource mybuttonstyle}" Margin="298,343,642,183" Click="Button_Click_1"/>
+
+        <Button Content="Button2" Style="{StaticResource mybuttonstyle}" Margin="445,343,495,183" Click="Button_Click_2"/>
+              
+        <Button Content="Button3" Style="{StaticResource mybuttonstyle}" Margin="607,343,333,183" Click="Button_Click_3"/>
+                    
+
+              
+
+          
+
+       
+    </Grid>
+</Window>

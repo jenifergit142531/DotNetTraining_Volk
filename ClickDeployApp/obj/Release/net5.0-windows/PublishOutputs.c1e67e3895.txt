@@ -1,0 +1,5 @@
+C:\Users\JeniferY\May_Vd\Class10\ClickDeployApp\bin\Release\net5.0-windows\app.publish\ClickDeployApp.exe
+C:\Users\JeniferY\May_Vd\Class10\ClickDeployApp\bin\Release\net5.0-windows\app.publish\ClickDeployApp.dll
+C:\Users\JeniferY\May_Vd\Class10\ClickDeployApp\bin\Release\net5.0-windows\app.publish\ClickDeployApp.deps.json
+C:\Users\JeniferY\May_Vd\Class10\ClickDeployApp\bin\Release\net5.0-windows\app.publish\ClickDeployApp.runtimeconfig.json
+C:\Users\JeniferY\May_Vd\Class10\ClickDeployApp\bin\Release\net5.0-windows\app.publish\ClickDeployApp.pdb

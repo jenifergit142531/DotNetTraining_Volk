@@ -1,0 +1,15 @@
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\bin\Debug\ClickOnceDeploy.exe.config
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\bin\Debug\ClickOnceDeploy.exe.manifest
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\bin\Debug\ClickOnceDeploy.application
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\bin\Debug\ClickOnceDeploy.exe
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\bin\Debug\ClickOnceDeploy.pdb
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\obj\Debug\ClickOnceDeploy.csproj.AssemblyReference.cache
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\obj\Debug\ClickOnceDeploy.csproj.SuggestedBindingRedirects.cache
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\obj\Debug\ClickOnceDeploy.Form1.resources
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\obj\Debug\ClickOnceDeploy.Properties.Resources.resources
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\obj\Debug\ClickOnceDeploy.csproj.GenerateResource.cache
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\obj\Debug\ClickOnceDeploy.csproj.CoreCompileInputs.cache
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\obj\Debug\ClickOnceDeploy.exe.manifest
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\obj\Debug\ClickOnceDeploy.application
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\obj\Debug\ClickOnceDeploy.exe
+C:\Users\JeniferY\May_Vd\Class10\ClickOnceDeploy\obj\Debug\ClickOnceDeploy.pdb

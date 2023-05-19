@@ -1,0 +1,16 @@
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\obj\Debug\WPFForms.csproj.AssemblyReference.cache
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\obj\Debug\WPFForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\obj\Debug\MainWindow.g.cs
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\obj\Debug\App.g.cs
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\obj\Debug\WPFForms_MarkupCompile.cache
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\obj\Debug\WPFForms_MarkupCompile.lref
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\bin\Debug\WPFForms.exe.config
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\bin\Debug\WPFForms.exe
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\bin\Debug\WPFForms.pdb
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\obj\Debug\MainWindow.baml
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\obj\Debug\WPFForms.g.resources
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\obj\Debug\WPFForms.Properties.Resources.resources
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\obj\Debug\WPFForms.csproj.GenerateResource.cache
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\obj\Debug\WPFForms.csproj.CoreCompileInputs.cache
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\obj\Debug\WPFForms.exe
+C:\Users\JeniferY\May_Vd\Class10\WPFForms\obj\Debug\WPFForms.pdb

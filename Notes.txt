@@ -1,0 +1,123 @@
+
+
+Agenda :
+
+- Transaction 
+- WPF - windows presentation foundation - desktop app
+- WPF forms
+- WCF - Windows communication foundation - web service 
+- WF - Workflow 
+- WF Features
+- Types of workflow
+- Deployment 
+* XCopy deployment
+* clickonce deployment 
+
+Transaction :
+
+- Logical\ single unit of work (mutiple action / activity)
+
+Properties :
+
+ACID
+A - Atomicity - Either all operation will work or none of it will work 
+C - Consistency - DB changes state upon commit transaction
+I - Isolation - independent transactions
+D - Durability - Ensure data persistence in case of system failure 
+
+- TransactionScope class - runs multiple activities in the given environment
+- SQLTransaction class
+
+WPF : windows presentation foundation  
+
+- building windows application
+- Its a wrapper(Managed and unmanaged code)
+
+
+Windows : C# language (GUI & Behaviour in same language)
+WPF : GUI (XAML), behaviour (C# code) 
+
+XAML :
+
+ <Button Click="Button_Click" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="#FFC52714" BorderThickness="11,15,11,15" FontFamily="Calibri" FontSize="24" Margin="420,263,258,185">Click</Button>
+
+
+ C# : 
+
+ private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello welcome");
+        }
+
+
+
+        WPF Forms :
+
+        * right click application and add references
+
+        System.windows.forms
+        windowsformsintegration
+
+
+   WCF : Windows communication foundation
+
+   - Helps to create a distributed service oriented technology
+   - Create a distributed architecture 
+   - a single service will interact with different client by using endpoints
+
+
+   Endpoints :
+
+   - ABC 
+
+   Address : where the service is residing in the network
+   Binding :how the service interact with the application
+   Contract : what service will do 
+
+   [ServiceContract] - interface
+   [OperationContract] - methods
+   [DataContract] - class
+   [DataMember] - data fields
+   [FaultContract] - Exception handling
+
+   Workflow :
+
+   - Series of activities involved in a task
+   - Except for first and last step , every steps will have a preceding and succeeding steps
+
+   Types :
+
+   - sequence
+   - Flowchart
+   - State 
+
+   What is an activity :
+
+   - Piece of work
+   - simple / complex
+   - Activities forms the fundamental building block of workflow
+   - represents an action in the workflow
+
+   Rules and conditions :
+
+   Condition - if logic is true or false
+             - if else branching
+
+   Rules - Contains multiple conditions with a set of actions to perform
+
+   Workflows ??
+
+   - System management
+   - Rules driven workflows
+   - Document centric
+   
+
+   XCOPY Deployment :
+
+   CMD Prompt :
+
+cd /
+
+C:\>xcopy /i /s C:\Users\JeniferY\May_Vd\Class10\WCFClientApp c:\xcopyfolder
+
+Click Once deployment : publish 
