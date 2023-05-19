@@ -1,0 +1,71 @@
+
+
+Agenda :
+
+- ADO.NET Application
+- Connected Architecture
+- Disconnected Architecture
+- using stored procedure
+- Implicit transaction
+- Master - detail relationship
+- Data binding
+
+ADO.NET :
+
+- Active database objects
+- interact with other data sources xml,sql,text...
+- Allow to connect with underlying data or database
+- It has classes and methods that allow us to manipulate the data and retrive the data from database
+
+Connected Architecture :
+
+- Connection is open throughout the processing
+
+Disconnected Architectute :
+
+- The application automatically connect & disconnects during the processing.
+- The application uses temporary data on the application side called as DATA SET
+
+
+Classes :
+
+- Connection class : Connect to the database
+
+sqlconnection conobj=new sqlconnection("data provider = servername,databasename,userid,pwd,security");
+
+- Command class : execute the sql command
+
+insert,update,delete,select
+
+sqlcommand cmd=new sqlcommand("select * from gaming");
+
+- DataReader class : Must be used while working with select command / reading the data
+
+methods :
+
+- Execute reader : reads the data 
+
+				datareader dr=cmd.executereader()
+		
+- ExecuteNonQuery : Work with create,insert,update,delete commands
+
+					cmd.executenonquery();
+
+- Executescalar : this method returns single value
+
+					cmd=select * from avgSalary() 
+
+					cmd.executescalar();
+
+- ExecuteXMLReader : return an xml object 
+
+Data Adapter class : creates the connection , manages the connection between database and application
+
+Data Set class : Dataset is a collection of tables.Whenever command executes,it will fetch the tables,rows,columns from the dataset
+					rather than database .
+
+
+
+
+Stored procedure : Prevents sql injection on your code
+
