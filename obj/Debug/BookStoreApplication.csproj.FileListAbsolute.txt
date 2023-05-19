@@ -1,0 +1,13 @@
+C:\Users\JeniferY\Desktop\MSatak\BookStoreApplication\BookStoreApplication\bin\Debug\BookStoreApplication.exe.config
+C:\Users\JeniferY\Desktop\MSatak\BookStoreApplication\BookStoreApplication\bin\Debug\BookStoreApplication.exe
+C:\Users\JeniferY\Desktop\MSatak\BookStoreApplication\BookStoreApplication\bin\Debug\BookStoreApplication.pdb
+C:\Users\JeniferY\Desktop\MSatak\BookStoreApplication\BookStoreApplication\obj\Debug\BookStoreApplication.csproj.AssemblyReference.cache
+C:\Users\JeniferY\Desktop\MSatak\BookStoreApplication\BookStoreApplication\obj\Debug\BookStoreApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\JeniferY\Desktop\MSatak\BookStoreApplication\BookStoreApplication\obj\Debug\BookStoreApplication.Form1.resources
+C:\Users\JeniferY\Desktop\MSatak\BookStoreApplication\BookStoreApplication\obj\Debug\BookStoreApplication.Properties.Resources.resources
+C:\Users\JeniferY\Desktop\MSatak\BookStoreApplication\BookStoreApplication\obj\Debug\BookStoreApplication.csproj.GenerateResource.cache
+C:\Users\JeniferY\Desktop\MSatak\BookStoreApplication\BookStoreApplication\obj\Debug\BookStoreApplication.csproj.CoreCompileInputs.cache
+C:\Users\JeniferY\Desktop\MSatak\BookStoreApplication\BookStoreApplication\obj\Debug\BookStoreApplication.exe
+C:\Users\JeniferY\Desktop\MSatak\BookStoreApplication\BookStoreApplication\obj\Debug\BookStoreApplication.pdb
+C:\Users\JeniferY\Desktop\MSatak\BookStoreApplication\BookStoreApplication\obj\Debug\BookStoreApplication.GamingApp.resources
+C:\Users\JeniferY\Desktop\MSatak\BookStoreApplication\BookStoreApplication\obj\Debug\BookStoreApplication.ProductForm.resources
