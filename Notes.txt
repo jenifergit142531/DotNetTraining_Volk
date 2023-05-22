@@ -1,0 +1,96 @@
+
+
+
+Agenda :
+
+- Introduction to ASP.NET
+- ASP.NET Lifecycle
+- Events 
+- server side controls
+- client side controls
+- Data control
+- Menu control
+- Chart control
+- Checkbox list control
+- Query Extended control
+
+Introduction :
+
+ASP - Active server pages
+
+- Web application framework
+- build dynamic web pages
+- HTTP Protocol
+- C#,HTML,CSS,JS
+
+ASP.Net web form model :
+
+- event driven model of interaction to the web application
+- submit the web form to the server and server provides the response 
+
+
+ASP.NET Lifecycle :
+
+1. Application Life cycle
+
+application start --->run multiple web forms --> application stop
+
+2. Page Life cycle [request --->response]
+
+Stages in the lifecycle :
+
+page request : Request is made to the server
+Page initialization : Each request is marked with unique id and processed
+page load : start the page level execution
+validation : check the data enterd is valid or not
+postback event handling :  event handler is invoked
+page rendereing : Response is created and rendered on the client
+page unload :clean up the resources(db connection,file open..)
+
+
+Events :
+
+1.PreInit() :first event in the page lifecycle.
+It will check for the IsPostBacK property
+
+2.Init() - Initializt the control property 
+textbox1.text=""
+
+3.InitComplete() = Allow the view state tracking
+
+4.LoadViewState() = Load View state information
+
+5.LoadPostData() = the contents of all the input field are defines
+
+6.PreLoad() = Preload occurs before the post back data is loaded in the control.
+
+7.Load() = Load your page
+
+8.LoadComplete() = page validation,dependencies are loaded allong with the page for execution
+
+9.PreRender() = Happens before the actual output is shown on the browser
+
+10. PreRenderComplete() - Called for all the child controls
+
+11.SaveStateComplete() = state of the control is saved.
+
+12.UnLoad() - Last phase in the page life cycle.Final clean will be done.
+
+Query Extender :
+
+- Filter the data from the selected data source
+
+
+CheckBoxList : allow you to select multiple items
+
+Repeater control :
+
+
+
+
+
+
+
+
+
+
