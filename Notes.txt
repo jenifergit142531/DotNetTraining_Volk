@@ -1,0 +1,84 @@
+
+
+
+Agenda :
+
+- Validation controls
+- List controls
+- Adrotator
+- Multiview
+- Paging in detail view
+- Calendar
+- File Upload
+- Data Pager
+- Form View
+- Tree view
+- SiteMapPath
+
+
+Validation control :
+
+- It will check whether the user input in the web form has an error or not
+- Check the accuracy and validate the user unput before your web application process those information.
+
+Why ??
+
+- Prevent invalid data from being submitted : by checking the fields..required,format,other criterion
+
+- Enhancing security - Prevents sql injection / cross scripting attacks
+
+- Meets the rules and requirement of the business.
+
+List Controls :
+
+- Displays a list of options to select.
+- System.Web.UI.WebControls.ListControl
+
+List Controls :
+
+- CheckBox List
+- Radio Button List
+- List Box
+- Drop down list
+- Bulleted List
+
+
+Properties :
+
+- SelectedValue : get the value of the selected item
+- SelectedIndex : get the index of the selected item
+- SelectedItem : get the text of the selected item
+- Items : get the collection of items
+- DataTextField : Name of the datasource
+- DataSourceId : Id of the data source
+- DataValueField : Returns the value of the items
+
+How to populate the data to the list controls ??
+
+- By using data from datasource
+- Directly write code to add items
+- write HTML to populate the controls
+- use inbuild data source controls
+- add items through the item collection from property window
+
+Adrotator : display sequence of images on your page.
+
+- Specify the images in the xml file
+
+- ImageURL : describes the path of the image which will be displayed on the adrotator control
+- NavigateUrl : Navigation webpage link
+- AlternateText : This text gets displayed in case of image not opening
+- Impression : Display rate of image
+- Keyword : Category of Ad
+
+
+MultiView :
+
+- similar to tab control
+- multiple views on the single web form
+
+
+
+
+
+
