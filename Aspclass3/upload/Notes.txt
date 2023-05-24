@@ -1,0 +1,107 @@
+
+
+
+Agenda :
+
+- State management techniques
+
+* Client side management
+
+1.View state
+2.Query string
+3.Cookies
+
+* Server side management
+
+
+1.Application
+2.Session
+
+- Cache
+
+1.Data Chache
+2.Output cache
+3.Partial cache
+
+- Paging in detail view
+- File Upload
+- Data Pager
+- Form View
+- Tree view
+- SiteMapPath
+
+
+State management :
+
+- Browsers are by default is stateless
+- HTTP Protocol to render the page on the brower
+- This HTTP - Hyper text transfer protocol is stateless(just cleans up the resource)
+- State managemnt techniques will allow you to store the state of the page,objects,session id,data,url info ...in some specific location
+
+Client side SM:
+
+- the state related info will get stored on the client side.
+- This specific info will travel back and communicate with every request given  by the user.
+
+Server side SM :
+
+- all the info are stored in the memory.
+- More secure in nature 
+
+View State :
+
+- Page level SM
+- Used to hold the data temp
+- Can store any data type
+- Property dependent 
+
+Querystring :
+
+- Hold data from different page
+- Pass info from one page to another or the same page also
+
+? [querystring]
+
+Cookies : 
+
+- small text that is stored on the client browser.
+
+1.persistent : cookies end based on the expiration date
+
+2.Nonpersistent : this gets stored as long as the user access or uses the service.
+
+
+
+Server side SM :
+
+- Application - one app state across the application
+- Session - seperate session created for every request
+
+Cache :
+
+Frequently made request is processed and stored on the memory
+
+
+Types :
+
+1.Page caching
+2.Data caching
+3.Fragment caching 
+
+Page Caching : Caching the entire page
+
+<% OutputCache Duration=5 VaryByParam="ID"%>
+
+* = cache all the parameters 
+none  = do not cache parameter
+
+
+Data Cache :
+
+set EnableCaching="true" CacheDuration=10 on the data source control 
+
+Fragment Caching :Partial page caching - caches part of the page
+
+
+File Upload : 
+

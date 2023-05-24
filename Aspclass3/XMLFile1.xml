@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Company>
+	<Department>
+		<DeptId>100</DeptId>
+		<DeptName>HR</DeptName>
+		<EmployeeCount>10</EmployeeCount>
+	</Department>
+	<Department>
+		<DeptId>200</DeptId>
+		<DeptName>IT</DeptName>
+		<EmployeeCount>2000</EmployeeCount>
+	</Department>
+	<Department>
+		<DeptId>300</DeptId>
+		<DeptName>Sales</DeptName>
+		<EmployeeCount>1000</EmployeeCount>
+	</Department>
+	<Department>
+		<DeptId>400</DeptId>
+		<DeptName>Analyst</DeptName>
+		<EmployeeCount>45</EmployeeCount>
+	</Department>
+</Company>
