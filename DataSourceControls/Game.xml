@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MyFavourite>
+	<Favourite Name="Books">
+		<Book Name="Ikigai"></Book>
+		<Book Name="Alchemist"></Book>
+		<Book Name="Immortals of meluha"></Book>
+	</Favourite>
+	<Favourite Name="Movies">
+		<Movie Name="Hangover"></Movie>
+		<Movie Name="Grownups"></Movie>
+		<Movie Name="Avatar"></Movie>
+	</Favourite>
+	<Favourite Name="Vacation">
+		<Vacation Name="Beach"></Vacation>
+		<Vacation Name="Forest"></Vacation>
+		<Vacation Name="Trek"></Vacation>
+	</Favourite>
+</MyFavourite>

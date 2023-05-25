@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HCL_DB" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=REV-PG02C4Y5;Initial Catalog=HCL_DB;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="HCL_DBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Game" Member="Games">
+    <Type Name="Game">
+      <Column Name="Gid" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GameName" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="maxPlayers" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="gametype" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="[level]" Member="level" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

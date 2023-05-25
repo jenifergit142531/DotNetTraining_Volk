@@ -1,0 +1,72 @@
+
+
+
+Agenda :
+
+- Master pages
+- Content pages
+- Themes
+- Skin file
+
+
+- Data Source controls
+
+1.LINQ DSC
+2.SQL dsc
+3.Entity dsc
+4.XML dsc
+5.Object dsc
+
+- Data Binding controls 
+
+1.Grid view
+2.Details view
+3.List View
+
+- Cache using SQL cache Dependency 
+
+
+Master Pages :
+
+- Allow you to create a consistent look and behaviour for all the pages in the application.
+- Provides a template that will be shared by other pages on the application.
+- It will have shared layout and functionality 
+- The master page defines a placeholder for the content ,which can be overridden by chiled / content page
+- Your web page will be a combination of master page and content page
+- Master page contains Standard layout
+- Content page contains the content that you want to display
+
+<%@page ..> - page directive - content page 
+<%@ Master....> - master page directive
+- master page contains <asp:ContentPlaceHolder> for individual content
+- You can have multiple placeholders in the master page 
+- Each placeholder has a Id associated with that.
+- Choose the template - web form master page - filename.master
+
+
+Themes :
+
+- enable you to define the colour,size,appearance of your web page
+
+3 ways :
+
+1.Skins
+2.Css
+3.Images and other resources 
+
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+
+   Applying Themes dynamically :
+
+   - At run time you can decide the look and feel of the web page

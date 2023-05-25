@@ -1,0 +1,19 @@
+﻿body {
+    background-color:bisque;
+}
+
+.label{
+    background-color:aquamarine;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px;
+    font-weight:bold
+}
+.textbox{
+    border-color:darkred;
+    border:solid 1 px;
+    background-color:chartreuse;
+}
+.button{
+    background-color:darkslateblue;
+}
+

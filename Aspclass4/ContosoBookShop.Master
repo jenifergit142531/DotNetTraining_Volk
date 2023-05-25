@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ContosoBookShop.master.cs" Inherits="Aspclass4.ContosoBookShop" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/AboutUsForm.aspx">AboutUs</asp:HyperLink>
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/ProductForm.aspx">Products</asp:HyperLink>
+                <br />
+<br />
+            </asp:ContentPlaceHolder>
+                
+              &nbsp;&nbsp;&nbsp;&nbsp;
+                
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+               <br />
+               <br />
+               <br />
+            <footer>
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+                     <asp:Label ID="Label1" runat="server" Text="Label">Reach out to us at www.contoso.com</asp:Label>
+            </asp:ContentPlaceHolder>
+            </footer>
+            
+        </div>
+    </form>
+</body>
+</html>
