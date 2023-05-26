@@ -1,0 +1,9 @@
+C:\Users\JeniferY\May_Vd\MiniProjectForm\ApplicationLayer\bin\Debug\ApplicationLayer.dll
+C:\Users\JeniferY\May_Vd\MiniProjectForm\ApplicationLayer\bin\Debug\ApplicationLayer.pdb
+C:\Users\JeniferY\May_Vd\MiniProjectForm\ApplicationLayer\obj\Debug\ApplicationLayer.csproj.AssemblyReference.cache
+C:\Users\JeniferY\May_Vd\MiniProjectForm\ApplicationLayer\obj\Debug\ApplicationLayer.csproj.CoreCompileInputs.cache
+C:\Users\JeniferY\May_Vd\MiniProjectForm\ApplicationLayer\obj\Debug\ApplicationLayer.dll
+C:\Users\JeniferY\May_Vd\MiniProjectForm\ApplicationLayer\obj\Debug\ApplicationLayer.pdb
+C:\Users\JeniferY\May_Vd\MiniProjectForm\ApplicationLayer\bin\Debug\DatabaseLayer.dll
+C:\Users\JeniferY\May_Vd\MiniProjectForm\ApplicationLayer\bin\Debug\DatabaseLayer.pdb
+C:\Users\JeniferY\May_Vd\MiniProjectForm\ApplicationLayer\obj\Debug\ApplicationLayer.csproj.CopyComplete

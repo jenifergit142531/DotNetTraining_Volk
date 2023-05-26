@@ -1,0 +1,6 @@
+C:\Users\JeniferY\May_Vd\MiniProjectForm\DatabaseLayer\bin\Debug\DatabaseLayer.dll
+C:\Users\JeniferY\May_Vd\MiniProjectForm\DatabaseLayer\bin\Debug\DatabaseLayer.pdb
+C:\Users\JeniferY\May_Vd\MiniProjectForm\DatabaseLayer\obj\Debug\DatabaseLayer.csproj.AssemblyReference.cache
+C:\Users\JeniferY\May_Vd\MiniProjectForm\DatabaseLayer\obj\Debug\DatabaseLayer.csproj.CoreCompileInputs.cache
+C:\Users\JeniferY\May_Vd\MiniProjectForm\DatabaseLayer\obj\Debug\DatabaseLayer.dll
+C:\Users\JeniferY\May_Vd\MiniProjectForm\DatabaseLayer\obj\Debug\DatabaseLayer.pdb

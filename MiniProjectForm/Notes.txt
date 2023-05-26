@@ -1,0 +1,48 @@
+﻿
+
+Agenda :
+
+- 3 - Tier Architecture
+
+*Data access layer (classlibrary1)
+*Application layer(classlibrary2)
+*Presentation layer(Webform)
+
+- SQL Cache dependency
+
+To enable the sql cache dependency :
+
+- open developer command prompt - 
+aspnet_regsql -ed -E -S Rev-PG02C4Y5 -d store
+aspnet_regsql -et -E  -S Rev-PG02C4Y5 -d store -t customers
+
+- Procedure(creating delay to understand the cache activity)
+
+create procedure sp_getcustomers
+as
+begin
+WAITFOR DELAY '00:00:03'
+SELECT * FROM customers
+end
+
+
+- Create a web form and include the fileds
+- web.config
+
+<connectionStrings>
+		<add name="StoreConnnectionString" connectionString="Data Source=REV-PG02C4Y5;Initial Catalog=store;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=False"/>
+	</connectionStrings>
+  <system.web>
+	  <caching>
+		  <sqlCacheDependency pollTime="2000" enabled="true">
+			  <databases>
+				  <add name="store" connectionStringName="StoreConnnectionString"/>
+			  </databases>
+		  </sqlCacheDependency>
+	  </caching>
+
+
+
+
+
+
