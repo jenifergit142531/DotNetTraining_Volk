@@ -1,0 +1,90 @@
+
+
+Agenda :
+
+- Web part 
+- Web part controls
+- Ajax
+- Ajax control
+- Asp.net MVC
+* Lifecycle
+* Controllers
+* Views
+* Model
+* Ado.net entity 
+- Localize and globalize core web application 
+
+Web part :
+
+- Facilitates the personalization of your web page 
+- Eg : iGoogle
+
+Webpart manager : this is added on every page that has webparts embedded in them.
+Web part zone : acts like a containet for web parts.
+Catalog part : manage the UI elements of all the web parts
+page catalog : manages individual page elements
+Editor zone : Customize the web parts
+Appearance,behaviour,layouy,property...
+Catalog zone : This acts like a container to hold catalog part
+
+Ajax control :
+
+- When we need to load ONLY A PART OF PAGE rather than loading entire page
+- Asynchronous javascript and xml
+
+These controls are :
+
+- Script manager
+- Update Panel
+- Timer
+- Update Progress
+- Script manager proxy
+
+ASP.NET MVC :
+
+- Creating web application
+- MVC(Framework , MVC(Core)
+- Model - View - Controller
+
+Model : data / class (.cs)
+   - properties (get & set)
+
+View : UI (html/css/js)
+    - Razor view (embedd both client side and server side code in the same page)
+
+
+Controller : Logic (CRUD)
+
+
+Lifecycle MVC :
+
+- Interact with web page using request and response
+- HTTP : Hyper text transfer protocol
+
+
+Controller :
+
+- Holds the logic
+- Extends from Controller (base class)
+- Controller name should start with capital letter
+- all controller name must have suffix - Controller Keyword
+
+HTTP VERBS :CRUD
+
+GET - Select (READ)
+PUT - update (UPDATE)
+POST - insert (CREATE)
+DELETE - delete (DELETE)
+
+
+
+Return types :
+
+Primitive types - void,int,bool,double,string
+ActionResult  - return view
+ViewResult - return view
+RedirectResult - redirect to URL
+RedirectToActionResult - core mvc
+RedirectToRouteResult - any controller inside the application
+LocalRedirectResult - core mvc
+FileResult - handles the files

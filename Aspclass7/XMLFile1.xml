@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/Images/Image1.jpeg</ImageUrl>
+		<NavigateUrl>www.google.com</NavigateUrl>
+		<AlternateText>Tom1</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>Cartoon</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Images/image2.jpeg</ImageUrl>
+		<NavigateUrl>www.google.com</NavigateUrl>
+		<AlternateText>Tom2</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>Cartoon</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Images/image3.jpeg</ImageUrl>
+		<NavigateUrl>www.google.com</NavigateUrl>
+		<AlternateText>Tom13</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>Cartoon</Keyword>
+	</Ad>
+</Advertisements>

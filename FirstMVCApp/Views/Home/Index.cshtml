@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>welcome to the Movie List Page</h2>
+
+<h5>@Html.ActionLink("Download my class notes", "Download")</h5>
+
+<br />
+
+
+<ul>
+    @{
+        //foreach(var i in ViewData["mymovie"] as List<string>)
+        //  foreach(var i in ViewBag.mymovie)
+        foreach (var i in TempData["mymovie"] as List<string>)
+        {
+            <li>@i</li>
+        }
+    }
+</ul>
