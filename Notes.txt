@@ -1,0 +1,34 @@
+
+
+
+Agenda :
+
+- Authentication
+- Authorization
+- Profiles
+- Globalization
+- Localization
+
+
+Authentication :
+
+Process to verify your credentials
+
+- Check if the user is valid or not
+
+* Forms Authentication
+* Windows Authentication
+* Passport Authentication 
+
+
+- Authorization 
+
+- If the user has some permissions on the app
+
+Profiles :
+
+- Created for personalization of the user identity
+- Websites are designed for repeated users.
+- And maintaining those user persona is done by profiles
+- Containe user persona
+

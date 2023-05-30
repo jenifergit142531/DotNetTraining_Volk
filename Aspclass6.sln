@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspclass6", "Aspclass6\Aspclass6.csproj", "{0FE9CFD7-33F8-45F1-885F-2BF7CB50F7ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1C0AA94-68EA-4B89-A067-64BF52E01BA3}"
+	ProjectSection(SolutionItems) = preProject
+		Notes.txt = Notes.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowAuthentication", "WindowAuthentication\WindowAuthentication.csproj", "{E1BF576F-7EEA-44E6-A31B-708F04C74813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfileProject", "ProfileProject\ProfileProject.csproj", "{96E0D881-CB43-442D-B73A-8C422CFD2593}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FE9CFD7-33F8-45F1-885F-2BF7CB50F7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE9CFD7-33F8-45F1-885F-2BF7CB50F7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE9CFD7-33F8-45F1-885F-2BF7CB50F7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE9CFD7-33F8-45F1-885F-2BF7CB50F7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1BF576F-7EEA-44E6-A31B-708F04C74813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1BF576F-7EEA-44E6-A31B-708F04C74813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1BF576F-7EEA-44E6-A31B-708F04C74813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1BF576F-7EEA-44E6-A31B-708F04C74813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E0D881-CB43-442D-B73A-8C422CFD2593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E0D881-CB43-442D-B73A-8C422CFD2593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E0D881-CB43-442D-B73A-8C422CFD2593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E0D881-CB43-442D-B73A-8C422CFD2593}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BDACA65-8DE5-41D2-AD29-E98F5F8DD2A9}
+	EndGlobalSection
+EndGlobal
