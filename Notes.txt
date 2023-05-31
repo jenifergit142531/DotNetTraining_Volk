@@ -1,0 +1,58 @@
+
+
+
+Notes :
+
+- Ado.net entity model
+- WCF Service
+- WCF Service using ASP.NET MVC
+- JQuery
+- Client side validation using Jquery
+
+Ado.net entity model:
+
+Change the runtime environment to 5.0
+
+WCF :
+
+Windows communication foundation
+- creating web service 
+
+
+- Using ADO.NET IN MVC 
+
+- JQuery :
+
+* Javascript library
+* simplifies JS Programme
+* easy to learn and implement
+* Lightweight
+* "write less , do more"
+
+
+Tasks :
+- HTML /DOM Manipulation
+- CSS Manipulation
+- Events
+- Ajax ( Asynchronous javascript and xml)
+
+ 
+ JQuery Syntax :
+
+ $(selector).action()
+
+ $ => define / access jquery
+ selector => element
+ action () => function / action that needs to be perfomed
+
+
+
+
+
+
+
+
+
+
+
+

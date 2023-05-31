@@ -1,0 +1,26 @@
+﻿@model Aspclass8.gaming
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>gaming</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.gname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.gname)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.gid }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

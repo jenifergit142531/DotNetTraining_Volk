@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DemoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="gaming">
+    <Key>
+      <PropertyRef Name="gid" />
+    </Key>
+    <Property Name="gid" Type="int" Nullable="false" />
+    <Property Name="gname" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <EntityContainer Name="DemoModelStoreContainer">
+    <EntitySet Name="gaming" EntityType="Self.gaming" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
