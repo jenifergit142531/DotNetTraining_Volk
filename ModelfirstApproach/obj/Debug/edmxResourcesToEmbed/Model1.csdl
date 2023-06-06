@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Books" EntityType="Model1.Book" />
+    <EntitySet Name="BookInventories" EntityType="Model1.BookInventory" />
+    <AssociationSet Name="BookBookInventory" Association="Model1.BookBookInventory">
+      <End Role="Book" EntitySet="Books" />
+      <End Role="BookInventory" EntitySet="BookInventories" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Author" Type="String" Nullable="false" />
+    <NavigationProperty Name="BookInventories" Relationship="Model1.BookBookInventory" FromRole="Book" ToRole="BookInventory" />
+  </EntityType>
+  <EntityType Name="BookInventory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Price" Type="String" Nullable="false" />
+    <Property Name="Quantity" Type="String" Nullable="false" />
+    <NavigationProperty Name="Book" Relationship="Model1.BookBookInventory" FromRole="BookInventory" ToRole="Book" />
+    <Property Name="BookId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="BookBookInventory">
+    <End Type="Model1.Book" Role="Book" Multiplicity="1" />
+    <End Type="Model1.BookInventory" Role="BookInventory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Book">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="BookInventory">
+        <PropertyRef Name="BookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

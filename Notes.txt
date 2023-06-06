@@ -1,0 +1,170 @@
+
+
+Agenda :
+
+- Folder structure of core mvc 7.0
+
+Routing 
+
+*conventional
+* attribute
+
+
+- Model binding
+
+- Model Validation
+
+- Entity framework core
+
+* Code first approach
+* Database first approch
+
+- CLI Commands
+
+add-migration
+update-database
+scaffold-dbcontext
+
+- DBContext , DBSet
+
+- Model first approach (.Net Framework 4.0 - ADO.NET Entity data model)
+
+
+
+
+Folder Structure :
+
+Lifecycle of Core MVC :
+
+Request ---> Middleware --->Routing --->Controller --->action executions--->Result --->Rendered as json data \ view
+
+
+
+Middleware :
+
+Program.cs:
+
+build() ..(Middleware pipeline)....run()
+
+Middleware pipeline --> Exception,https,routing,authentication,mvc
+
+Routing : navigate from one page to another web page
+
+
+Two types :
+
+1.Conventional routing
+
+app.MapControllerRoute(
+    name: "gadget",
+    pattern: "{controller=Gadget}/{action=Index}/{id?}");
+
+2.Attribute Routing
+
+[Route("Hi")]
+
+
+app.UseEndpoints(Endpoint =>
+{
+    Endpoint.MapControllers()
+});
+
+
+Model : Data (sql,text,json,xml..)
+
+Model binding : Binding model to the controller
+
+Model Validation :Checking if the data meets specified criteria
+
+Data annotations:
+
+- Required
+- Range
+- Display Name
+- String length
+- bind
+- Regular expression
+
+
+Code first Approach :
+
+- Write code(model class / data model ) --->migrate ----> database table
+
+Step by step procedure :
+
+step 1: install the package
+
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.VisualStudio.Web.CodeGeneration.Design
+
+Step 2 : Create the data model
+
+
+public class Gadget
+    {
+        [Key]
+        public int GadgetId { get; set; }
+
+        [Required(ErrorMessage ="Gadget name is required")]
+        [StringLength(20,ErrorMessage ="Gadget name should be less than 20 characters")]
+        public string GadgetName { get; set; }
+
+        [Range(1000,3000,ErrorMessage ="Gadget price must be between 1000 and 2000")]
+        public int Price { get; set; }
+
+        [DisplayName("Availability")]
+        public int Quantity { get; set; }
+
+    }
+
+ 
+ Step 3 : Configure the data source
+
+ "ConnectionStrings": {
+    "GadgetConnection": "Data Source=REV-PG02C4Y5;Initial Catalog=Demo;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=False"
+  },
+
+
+Step 4 : Configure the context class
+
+DBContext : Configure the database connection
+DBSet : have the database table
+
+public class GadgetContext : DbContext
+    {
+        public GadgetContext(DbContextOptions<GadgetContext> options) : base(options)
+        {
+        }
+
+        public DbSet<Gadget> Gadgets { get; set; }
+    }
+
+
+ Step 5 : Configure the services on the middleware
+
+ builder.Services.AddDbContext<GadgetContext>(
+    options => options.UseSqlServer(
+        builder.Configuration.GetConnectionString("GadgetConnection")));
+
+
+Step 6 : CLI Commands 
+
+add-migration 'initialcreate'
+update-database
+
+Step 7 : Configure the controller
+
+Step 8 : Execute the application
+
+
+_______________
+
+
+Database first approach :
+
+- Database table ---> scaffold ---> data model
+
+
+Scaffold-DbContext "Data Source=REV-PG02C4Y5;Initial Catalog=dbapproach;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
