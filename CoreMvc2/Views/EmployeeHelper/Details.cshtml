@@ -1,0 +1,14 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<fieldset>
+    <legend>Employee Details</legend>
+    @Html.Display("empdetails")
+</fieldset>
+<div>
+    @Html.ActionLink("edit","edit")
+    <a asp-action="Index">Back to list</a>
+</div>

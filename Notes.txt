@@ -1,0 +1,108 @@
+
+
+
+Agenda :
+
+- Session
+- HTML Helpers
+- Localization 
+- Globalization
+- REST
+- Controllers
+- Actions
+- HTTP Verbs
+- Routing
+
+* Conventional
+* Attribute
+
+Session :
+
+- Store the data while the user is browsing the application
+- Server side state management technique
+- Associated with every page
+- New session is created for every request
+- Logout / expires / time out if the session is not active for a period of time
+
+Install-package Microsoft.AspNetCore.Session
+
+Html helpers : simplify the way to write  your html element tags
+
+@html.textbox
+@html.button
+@html.label
+@html.dropdown
+
+<input type="text" value="mytextbox">
+
+
+Globalization :
+
+- Process of designing the web page that support differnt culture
+- Add support to input,display,output must be related to specific geographic location
+
+
+Localization : process of adapting to globalized site
+
+- give specific culture info / locale info 
+
+Internalization : support globalization / localization
+
+
+REST :
+
+What is API ?
+
+Application programming interface
+
+
+- Communicate with different clients(mobile,laptop,tab,...)
+- Intermediate s/w that handles the request and response
+
+Why ?
+
+- Portable
+- Content negotiation (data formats like plain text,json,xml)
+- Easy to implement
+- No view support
+
+Implement ?
+
+- SOAP - SIMPLE OBJECT ACCESS PROTOCOL
+
+* ONLY UNDERSTANDS XML
+* WRITE CODE IN XML
+* RETURN XML VALUE
+
+<soapenvelop>
+<soapheader>..</soapheader>
+<soapbody>.....</soapbody>
+<soapfault>...</soapfault>
+</soapenvelop>
+
+
+
+- REST - REPRESENTATIONAL STATE TRANSFER
+
+* architectural design pattern to implement restful application
+* HTTP Request & HTTP Response
+* supports http verbs 
+
+GET
+PUT
+POST
+DELETE
+
+- Deploy in self-hosting,IIS,Cloud
+
+Protocol : HTTP,HTTPS
+
+Testing : Postman / fiddler 
+
+HTTP STATUS CODE :
+
+100 - Information
+200 - Success ,OK
+300 - Dependency,redirections
+400 - client error
+500 - server error
