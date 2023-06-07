@@ -1,0 +1,59 @@
+
+
+Agenda :
+
+- Minimal api
+- CRUD using entity framework
+- Testing using postman
+- Api gateway
+- Angular Introduction
+- Create component
+- Data binding
+- Routing
+
+
+Minimal api :
+
+- Create api with minimal dependencies
+- Ideal for microservices that uses minimal files
+
+Limitations :
+
+- No view support
+- No model binding
+- No filters
+- No validation
+- No support on OData
+
+
+API Gateway :
+
+- Associated with microservices architecture
+- multiple Http request from clients are hand;ed by the api gateway
+- Response is also rendered through the gateway
+- Seperation of concern ( Client is not aware/ exposed of your service)
+- Data security and easy accessbility
+
+
+BookingContactDetails :
+
+  https://localhost:7196/api/bookinginfo
+
+BookShowApp:
+
+  https://localhost:7089/api/booking
+
+
+ ApiGateway :
+
+  Common URL :
+
+  Base URL : https://localhost:7021
+
+  Booking Service URL : https://localhost:7021/apigateway/BookingService
+  Contact Info URL : https://localhost:7021/apigateway/ContactDetailService
+
+
+
+
+
