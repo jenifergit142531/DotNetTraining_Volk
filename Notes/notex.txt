@@ -1,0 +1,33 @@
+
+
+Angular :
+
+- Introduction
+- Why ??
+- Folder structure
+- Modules ??
+- Component ??
+- Decorators ??
+- Template vs TemplateURL
+- Data Binding
+- Directives
+- Routing
+- Services
+- Forms
+
+Introduction :
+
+- Front end development platform to build web applications
+
+
+Why ?
+
+- open source
+- JS Framework
+- Simplifies the way to bind html & js
+
+Folder structure :
+
+Component :
+
+Reusable UI Building block of the application 
