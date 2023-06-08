@@ -1,0 +1,20 @@
+<form  #form="ngForm" (ngsubmit)="updateBooking()">
+    <div class="mb-3">
+      <label for="movieName" class="form-label">Movie Name</label>
+      <input type="text" class="form-control" id="name" name="movieName" [(ngModel)]="bookingDetails.movieName">
+      
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Price</label>
+      <input type="number" class="form-control" id="price" name="price" [(ngModel)]="bookingDetails.price">
+    </div>
+
+    <div class="mb-3">
+        <label for="seats" class="form-label">Seats</label>
+        <input type="number" class="form-control" id="seats" name="seats" [(ngModel)]="bookingDetails.seats">
+      </div>
+    
+    <button type="submit" class="btn btn-primary">Edit Booking</button>
+
+    <button type="button" (click)="deleteBooking(bookingDetails.bookingId)" class="btn btn-danger">Delete booking</button>
+  </form>

@@ -31,3 +31,14 @@ Folder structure :
 Component :
 
 Reusable UI Building block of the application 
+
+Directives :
+
+ngFor
+ngIf
+ngSwitch
+
+Databinding :
+
+- one way(model -> view)
+- two way(model -> view , view -> model)

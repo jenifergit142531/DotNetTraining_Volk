@@ -1,0 +1,18 @@
+<form  #form="ngForm" (ngSubmit)="addBooking()">
+    <div class="mb-3">
+      <label for="movieName" class="form-label">Movie Name</label>
+      <input type="text" class="form-control" id="name" name="movieName" [(ngModel)]="addBookingRequest.movieName">
+      
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Price</label>
+      <input type="number" class="form-control" id="price" name="price" [(ngModel)]="addBookingRequest.price">
+    </div>
+
+    <div class="mb-3">
+        <label for="seats" class="form-label">Seats</label>
+        <input type="number" class="form-control" id="seats" name="seats" [(ngModel)]="addBookingRequest.seats">
+      </div>
+    
+    <button type="submit" class="btn btn-primary">Book Ticket</button>
+  </form>

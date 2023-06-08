@@ -1,0 +1,21 @@
+
+
+<div>
+    <table class="table table-primary">
+        <thead>
+            <th>Booking Id</th>
+            <th>Movie Name</th>
+            <th>Price</th>
+            <th>Seats</th>
+        </thead>
+        <tbody>
+            <tr *ngFor='let i of bookings'>
+                <td>{{i.bookingId}}</td>
+                <td>{{i.movieName}}</td>
+                <td>{{i.price}}</td>
+                <td>{{i.seats}}
+<td><a [routerLink]="['/bookings','editbooking',i.bookingId]">View</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
