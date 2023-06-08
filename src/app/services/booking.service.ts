@@ -32,9 +32,9 @@ export class BookingService {
     return this.http.get<Booking>(this.baseApiUrl+'/api/booking/'+bookingId);
   }
 
-  updateBooking(bookingId:string,bookingDetails:Booking):Observable<Booking>
+  updateBooking(bookingId:string,updateBookingRequest:Booking):Observable<Booking[]>
   {
-    return this.http.put<Booking>(this.baseApiUrl+'/api/booking/'+bookingId,bookingDetails);
+    return this.http.put<Booking[]>(this.baseApiUrl+'/api/booking/'+bookingId,updateBookingRequest);
   }
 
   deleteBooking(bookingId:string):Observable<Booking>{

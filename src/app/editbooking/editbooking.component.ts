@@ -10,7 +10,7 @@ import { BookingService } from '../services/booking.service';
 })
 export class EditbookingComponent implements OnInit {
 
-  bookingDetails:Booking={
+  updateBookingRequest:Booking={
       bookingId:'',
       movieName:'',
       price:0,
@@ -31,7 +31,7 @@ export class EditbookingComponent implements OnInit {
           .subscribe({
             next:(response)=>
             {
-              this.bookingDetails=response;
+              this.updateBookingRequest=response;
             }
           })
         }
@@ -42,7 +42,7 @@ export class EditbookingComponent implements OnInit {
 
   updateBooking()
   {
-    this.bookingservice.updateBooking(this.bookingDetails.bookingId,this.bookingDetails)
+    this.bookingservice.updateBooking(this.updateBookingRequest.bookingId,this.updateBookingRequest)
     .subscribe({
       next:(response)=>
       {
