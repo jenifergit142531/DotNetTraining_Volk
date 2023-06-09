@@ -1,0 +1,371 @@
+Agenda :
+
+- DML
+- DDL
+- Stored Procedures
+- Functions
+- Joins
+- Key constraint
+- Indexes
+- Triggers
+
+SQL - Structured query language
+
+Database : Collection of tables
+
+create database <dbname>
+
+Tables : Collection of data arranged in rows and columns
+
+create table <tblname>(data..)
+
+DDL : Data definition language
+
+- make changes to the structure of the data
+
+CREATE
+DROP
+ALTER
+
+DML :Data manipulation language
+
+- Make changes to the content of the table
+
+INSERT
+UPDATE
+DELETE
+
+Stored Procedure :
+- Set of T-SQL statements that are executed to perform a task
+- prevent sql injection in your code
+- More data security
+- output parameter
+- Does not return a value
+
+Functions :
+
+- Set of sql statements executed together to perform a task
+
+scalar functions - returns a single value
+
+Table values function - return a table
+
+
+Joins :
+
+Combine columns from one or more tables
+
+matching columns - fill actual values
+non - matching columns - fill null values
+
+- left join
+- right join
+- full join
+- inner join 
+
+Keys :
+
+primary key - not null,unique,(better with numbers)
+foreign key - primary key of 1 table will be the foreign key of another table,referencing the data
+unique key - like email,phone number,--- need data to be unique but its not a identifier column
+candidate key - more or more non key colums
+identity - auto increment value identity(1,1)
+
+
+Indexing :
+
+- optimize the searching in the table
+- efficient means of searching
+
+1.Clustered - associated with primary key
+- physical ordering of data
+- Only 1 cluster index is allowed for a table
+- EG: Table of contents (first page)
+
+2.Non clustered - associated with unique key
+- logical ordering of data
+- 0 -999 non clustered index allowed in a table
+- Eg : Last page of the book 
+
+Triggers :
+
+- event in your db / tables
+
+1. DML - INSERT , UPDATE ,DELETE
+2. DDL - CREATE , ALTER,DROP
+
+Clauses :
+
+1.After
+2.Instead of
+3.For
+
+
+
+
+select * from bookinventories
+
+insert into BookInventories(price,quantity,bookid)
+values
+(2500,2,1)
+
+
+alter procedure sp_insert
+(
+@name varchar(20),
+@author varchar(20))
+as
+begin
+insert into books
+(name,author)
+values
+(@name,@author)
+end
+
+exec sp_insert
+@name='ikigai',
+@author='paul'
+
+sp_help sp_insert
+
+alter procedure sp_deletebook(
+@id int)
+as
+begin
+begin try
+delete from books where id=@id
+end try
+begin catch
+select 
+ERROR_MESSAGE() as errormessage,
+ERROR_SEVERITY() as severitylevel
+end catch
+end
+
+exec sp_deletebook 100
+
+create procedure usp_divide
+(@a decimal,
+@b decimal,
+@c decimal output)
+as
+begin
+begin try
+set @c=@a/@b
+end try
+begin catch
+select
+ERROR_MESSAGE() as errmsg,
+ERROR_SEVERITY() as severity
+end catch
+end
+
+declare @result decimal
+exec usp_divide 10,0,@result output
+print @result
+
+
+
+alter procedure sp_select
+with encryption
+as
+begin
+select * from books
+end
+
+exec sp_select
+
+sp_helptext sp_select
+
+
+alter function calculate()
+returns int
+as
+begin 
+--declare @price int
+--declare @quantity int
+declare @totalprice int
+select @totalprice=price * Quantity from inventory 
+return @totalprice
+end
+
+select dbo.calculate()
+
+select * from inventory
+
+create function getBookList()
+returns table
+as
+return(select * from inventory where price > 150)
+
+select * from getBookList()
+
+drop table orders
+
+create table customer (cusid int primary key,cusname varchar(20),country varchar(20))
+create table orders (orderid int primary key,cusid int,
+orderdate date)
+
+create table store(storeid int primary key,location varchar(20),quantity int,orderid int)
+
+insert into customer(cusid,cusname,country)
+values
+(1,'aaa','US'),
+(2,'bbb','India'),
+(3,'ccc','China')
+
+insert into orders(orderid,cusid,orderdate)
+values
+(1001,2,'2023-06-09'),
+(1002,23,'2023-07-09'),
+(1003,12,'2023-08-09')
+
+insert into store(storeid,location,quantity,orderid)
+values
+(0001,'chennai',35,1001),
+(0002,'pune',12,3001),
+(0003,'bangalore',10,1003)
+
+select * from customer
+select * from orders
+
+
+-- innerjoin (matching values from both tables)
+
+select c1.cusid,c1.cusname,c1.country,o1.orderdate
+from customer c1
+inner join
+orders o1
+on c1.cusid=o1.cusid
+
+-- left join (all values from left table and null values from non matching column of right table)
+
+select c1.cusid,c1.cusname,c1.country,o1.orderdate
+from customer c1
+left join
+orders o1
+on c1.cusid=o1.cusid
+
+-- right join (all values from right table and null values from non matching column of left table)
+
+select c1.cusid,c1.cusname,c1.country,o1.orderdate
+from customer c1
+right join
+orders o1
+on c1.cusid=o1.cusid
+
+-- full join
+
+select c1.cusid,c1.cusname,c1.country,o1.orderdate
+from customer c1
+full join
+orders o1
+on c1.cusid=o1.cusid
+
+-- joining 3 tables
+
+select c1.cusid,c1.cusname,o1.orderdate,s1.quantity,s1.location
+from customer c1
+inner join 
+orders o1 on c1.cusid=o1.cusid
+inner join
+store s1
+on s1.orderid=o1.orderid
+
+drop table  productbilling
+
+create table productbilling(id int primary key,name varchar(20),personname varchar(20),email varchar(20) unique,phone varchar(20) unique)
+
+insert into productbilling(id,name,personname,email,phone)
+values
+(444,'fff','fff','fff@gmail.com','123455678wd')
+--(301,'bbb','mira','mira@gmail.com','23456'),
+--(201,'ccc','amy','amy@gmail.com','34567'),
+--(000,'ddd','aron','aron@gmail.com','56789')
+
+select * from productbilling
+
+
+create clustered index cx
+on productbilling(id)
+
+
+
+create nonclustered index nci
+on productbilling(email,phone)
+
+
+drop table mylog
+
+create table mylog(logid int identity(1,1),name varchar(20),operation varchar(10),updateddate datetime)
+
+alter trigger tr_insert
+on productbilling
+instead of insert
+as
+insert into mylog(name,operation,updateddate)
+select name,'INSERT',GETDATE() from inserted
+
+create trigger tr_update
+on productbilling
+after update
+as
+insert into mylog(name,operation,updateddate)
+select name,'update',GETDATE() from inserted
+
+create trigger tr_delete
+on productbilling
+for delete
+as
+insert into mylog(name,operation,updateddate)
+select name,'deleted',GETDATE() from deleted
+
+
+select * from mylog
+
+select * from productbilling
+
+delete from productbilling where id=0
+
+update productbilling set name='xxx' where id=101
+
+
+
+-- DDL
+
+drop table myddllog
+
+create table myddllog(logid int identity(1,1),eventval xml,updateddate datetime)
+
+create trigger trgddl
+on database
+for 
+create_table,
+alter_table,
+drop_table
+as
+insert into myddllog(eventval,updateddate) values (EVENTDATA(),GETDATE())
+
+
+use dbapproach
+
+create table one(id int,name varchar(20))
+
+drop table one
+
+alter table productbilling
+add location varchar(20)
+
+
+select * from myddllog
+
+
+
+
+
+
+
+
+
+
+
